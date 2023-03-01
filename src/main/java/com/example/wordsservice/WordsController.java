@@ -21,6 +21,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/")
+@CrossOrigin
 public class WordsController {
   private final Logger logger = LogManager.getLogger(WordsController.class);
   
